@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>SOS2 - VE Helixien Gas Patch</name>
+	<name>SOS2 - VE Helixien Gas Compatibility Patch</name>
 	<author>Ionfrigate12345</author>
 	<supportedVersions>
 		<li>1.5</li>
@@ -30,6 +30,5 @@
 		<li>kentington.saveourship2</li>
 		<li>vanillaexpanded.helixiengas</li>
 	</loadAfter>
-	<description>This patch will delete all helixien gas geysers from VE Helixien Gas Expanded on SOS2 space maps, removing the incompatibility between two mods. Need to be loaded after both.
-	Harmony required.</description>
+	<description>This patch will prevent Vanilla Helixien Gas Expanded (VHGE) from spawning geysers on SOS2 space maps, therefore removing the incompatibility between two mods.</description>
 </ModMetaData>
