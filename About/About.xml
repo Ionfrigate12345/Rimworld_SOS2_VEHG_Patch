@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>SOS2 - VE Helixien Gas Patch</name>
+	<author>Ionfrigate12345</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>Ionfrigate12345.SOS2VEHelixienPatch</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>kentington.saveourship2</packageId>
+			<displayName>Save Our Ships 2</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1909914131</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>vanillaexpanded.helixiengas</packageId>
+			<displayName>Vanilla Helixien Gas Expanded</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2877699803</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>kentington.saveourship2</li>
+		<li>vanillaexpanded.helixiengas</li>
+	</loadAfter>
+	<description>This patch will delete all helixien gas geysers from VE Helixien Gas Expanded on SOS2 space maps, removing the incompatibility between two mods. Need to be loaded after both.
+	Harmony required.</description>
+</ModMetaData>
